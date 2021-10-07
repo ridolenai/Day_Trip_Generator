@@ -1,6 +1,5 @@
 import random
 
-
 destinations = ["Disney World", "Oktoberfest", "Crawfish Festival", "Mawmaw's House"]
 restaurants = ["Applebee's", "Schnitzel Emporium", "Pizza Hut", "Sullivan's"]
 transportation = ['Car', 'Bicycle', '4-wheeler', 'Yee Yee Truck']
@@ -47,7 +46,6 @@ def choose_again (q): #Enables user to select another option if one of the selec
              day_trip.insert(3, indecisive_trip(entertainment))
              
      return day_trip    
-
 begin(indecisive_trip)
 
 while satisfaction != ('y'): #allows users to change undesirable options until they are satisfied.
@@ -57,9 +55,3 @@ while satisfaction != ('y'): #allows users to change undesirable options until t
 print ('Here is your randomly generated day trip:')#These three lines print the outcome once the user is satisfied.
 print (day_trip)
 print ("Thank you for using the RNGeezus Trip Generator.  Enjoy your day away! ")
-
-
-
-
-
-
