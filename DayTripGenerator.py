@@ -51,10 +51,8 @@ def choose_again (q): #Enables user to select another option if one of the selec
 begin(indecisive_trip)
 
 while satisfaction != ('y'): #allows users to change undesirable options until they are satisfied.
-    #begin(indecisive_trip)
     choose_again(indecisive_trip)
     satisfaction = input ('Please type y if you are satisfied or n if you are not')
-    #if satisfaction == ('y'):
 
 print ('Here is your randomly generated day trip:')#These three lines print the outcome once the user is satisfied.
 print (day_trip)
