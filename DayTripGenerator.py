@@ -40,17 +40,17 @@ def choose_again (q):
          elif unsatisfied == ('2'):
              day_trip.pop(1)
              day_trip.insert(1, indecisive_trip(restaurants))
-             satisfied = input ("Please type y if you are satisfied or n for not satisfied. ")
+             
             
          elif unsatisfied == ('3'):
              day_trip.pop(2)
              day_trip.insert(2, indecisive_trip(transportation))
-             satisfied = input ("Please type y if you are satisfied or n for not satisfied. ")
+             
             
          elif unsatisfied == ('4'):
              day_trip.pop(3)
              day_trip.insert(3, indecisive_trip(entertainment))
-             satisfied = input ("Please type y if you are satisfied or n for not satisfied. ")
+             
      return day_trip    
 
 begin(indecisive_trip)
